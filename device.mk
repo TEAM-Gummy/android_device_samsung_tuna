@@ -75,7 +75,7 @@ PRODUCT_COPY_FILES += \
 	device/samsung/tuna/gps.conf:system/etc/gps.conf
 
 # TWRP
-PRODUCT_COPY_FILES := \
+PRODUCT_COPY_FILES += \
         device/samsung/tuna/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Wifi
